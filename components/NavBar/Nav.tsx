@@ -6,7 +6,12 @@ import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 import { HiBars3BottomRight } from 'react-icons/hi2'
 
-const Nav = () => {
+// define props type 
+type Props = {
+    openNav: () => void,
+};
+
+const Nav = ({ openNav }: Props) => {
     const [navBg, setNavBg] = useState(false);
 
     useEffect(() => {
@@ -25,7 +30,7 @@ const Nav = () => {
     })
 
     return (
-        <div className={`fixed ${navBg ? 'bg-green-400' : 'fixed'} w-full transition-all duration-200 h-[12vh] z-[1000] bg-green-700`}>
+        <div className={`fixed ${navBg ? 'bg-green-400' : 'fixed'} w-full transition-all duration-200 h-[12vh] z-[1000]`}>
             <div className="flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto">
                 {/* logo */}
                 <Image src="/images/logo copy.png" alt='Logo' width={140} height={140} className='rounded-lg' />
@@ -46,7 +51,7 @@ const Nav = () => {
                         Signup Now
                     </button>
                     {/* burger menu  */}
-                    <HiBars3BottomRight className='w-8 h-8 cursor-pointer text-white lg:hidden '/>
+                    <HiBars3BottomRight onClick={openNav} className='w-8 h-8 cursor-pointer text-white lg:hidden ' />
                 </div>
             </div>
         </div>
