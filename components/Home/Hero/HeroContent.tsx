@@ -5,14 +5,11 @@ const HeroContent = () => {
     <div>
         {/* title  */}
         <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text7xl font-bold md:leading-[3rem] lg:leadin-[3.5rem] xl:leading-[4rem] text-white'>
-        Tech Skills Made Easy: Learn Online, Anytime.
+        Tech Skills Made Easy. 
         </h1>
         {/* description  */}
-        <p className='mt-6 text-sm md:text-base text-white text-opacity-60'>Tired of feeling left behind in the tech world?
-            "Tech Skills Made Easy" makes learning a breeze!
-            Our online courses are designed to be fun and engaging,
-            fitting seamlessly into your busy schedule.
-            Unlock your tech potential today – let's get started!"
+        <p className='mt-12 text-sm md:text-base text-white text-opacity-60'>
+        Learn Online, Anytime.
         </p>
         {/* button  */}
         <div className='mt-8 flex items-center space-x-4'>
