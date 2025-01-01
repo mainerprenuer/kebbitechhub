@@ -8,7 +8,7 @@ const Courses = () => {
     <div className='pt-16 pb-16 relative bg-gray-200'>
         {/* bounce ball */}
         <Image
-            src="/images/cb.png"
+            src="/images/logoNobg.png"
             alt='image'
             width={800}
             height={800}
