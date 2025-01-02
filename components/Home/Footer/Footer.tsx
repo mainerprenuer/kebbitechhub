@@ -39,6 +39,7 @@ const Footer = () => {
                 <p className='footer__link'>About</p>
                 <p className='footer__link'>Courses</p>
                 <p className='footer__link'>Instructor</p>
+                <p className='footer__link'>Parent</p>
                 <p className='footer__link'>Profile</p>
                 <p className='footer__link'>Privacy Policy</p>
             </div>
