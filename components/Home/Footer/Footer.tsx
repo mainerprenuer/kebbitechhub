@@ -16,16 +16,16 @@ const Footer = () => {
                 </p>
                 {/* socials icons */}
                 <div className='flex items-center space-x-4 mt-6'>
-                    <FaFacebookF className='w-6 h-6 text-blue-500'/>
-                    <FaXTwitter className='w-6 h-6 text-white'/>
-                    <FaYoutube className='w-6 h-6 text-red-700'/>
-                    <FaInstagram className='w-6 h-6 text-pink-600'/>
-                    <FaWhatsapp className='w-6 h-6 text-green-600'/>
+                    <FaFacebookF className='w-6 h-6 text-blue-500 cursor-pointer'/>
+                    <FaXTwitter className='w-6 h-6 text-white cursor-pointer'/>
+                    <FaYoutube className='w-6 h-6 text-red-700 cursor-pointer'/>
+                    <FaInstagram className='w-6 h-6 text-pink-600 cursor-pointer'/>
+                    <FaWhatsapp className='w-6 h-6 text-green-600 cursor-pointer'/>
                 </div>
             </div>
             {/* 2nd part */}
             <div className=''>
-                <h1 className='footer_heading'>Popular</h1>
+                <h1 className='footer__heading'>Popular</h1>
                 <p className='footer__link'>Web Development</p>
                 <p className='footer__link'>Web Development</p>
                 <p className='footer__link'>Web Development</p>
@@ -34,7 +34,7 @@ const Footer = () => {
             </div>
             {/* 3rd part */}
             <div className=''>
-                <h1 className='footer_heading'>Quick Link</h1>
+                <h1 className='footer__heading'>Quick Link</h1>
                 <p className='footer__link'>Home</p>
                 <p className='footer__link'>About</p>
                 <p className='footer__link'>Courses</p>
@@ -45,7 +45,7 @@ const Footer = () => {
             </div>
             {/* 4th part (newsletter) */}
            <div>
-           <h1 className='footer_heading'>Subscribe our Newsletter</h1>
+           <h1 className='footer__heading'>Subscribe our Newsletter</h1>
            <input type='text' placeholder='Enter you email' className='px-6 py-2 rounded-lg outline-none
             bg-gray-700 w-full text-white'
             />
