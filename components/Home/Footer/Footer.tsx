@@ -12,7 +12,7 @@ const Footer = () => {
             <div>
                 <Image src="/images/logo copy.png" alt='Logo' width={100} height={100} className='rounded-lg' />
                 <p className='mt-6 text-white text-opacity-50'>
-                This is a test This is a test This is a testThis is a test This is a test This is a test This is a test This is a test
+                Your Tech Hub in Kebbi -  The Future of Learning Starts Here.
                 </p>
                 {/* socials icons */}
                 <div className='flex items-center space-x-4 mt-6'>
@@ -26,11 +26,13 @@ const Footer = () => {
             {/* 2nd part */}
             <div className=''>
                 <h1 className='footer__heading'>Popular</h1>
-                <p className='footer__link'>Web Development</p>
-                <p className='footer__link'>Web Development</p>
-                <p className='footer__link'>Web Development</p>
-                <p className='footer__link'>Web Development</p>
-                <p className='footer__link'>Web Development</p>
+                <p className='footer__link'>Robotics</p>
+                <p className='footer__link'>Digital Literacy</p>
+                <p className='footer__link'>Basic ICT Skills</p>
+                <p className='footer__link'>Cyber Security</p>
+                <p className='footer__link'>Installation Skills</p>
+                <p className='footer__link'>Artificial Intelligence</p>
+                <p className='footer__link'>Software Development</p>
             </div>
             {/* 3rd part */}
             <div className=''>
@@ -49,7 +51,7 @@ const Footer = () => {
            <input type='text' placeholder='Enter you email' className='px-6 py-2 rounded-lg outline-none
             bg-gray-700 w-full text-white'
             />
-            <button className='px-6 py-2 mt-4 rounded-lg outline-none bg-rose-700 w-full text-white'>Subscribe</button>
+            <button className='px-6 py-2 mt-4 rounded-lg outline-none bg-rose-700 w-full text-white hover:bg-rose-900'>Subscribe</button>
            </div>
         </div>
         <p className="text-center mt-4 text-base text-white opacity-70">

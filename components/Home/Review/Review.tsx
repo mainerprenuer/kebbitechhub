@@ -21,8 +21,7 @@ const Review = () => {
                     xl:leading-[3.6rem] text-white'>Trusted by genius people.</h1>
                     {/* description */}
                     <p className='text-base text-white text-opacity-50 mt-6'>
-                    Random textRandom textRandom textRandom textRandom textRandom textRandom text
-                    Random textRandom textRandom text
+                    Join a community of high-achievers who rely on Kebbi Tech Hub learning center to unlock their full potential.
                     </p>
                     {/* info */}
                     <div className='flex items-center space-x-8 mt-8'>

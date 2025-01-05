@@ -11,7 +11,9 @@ const Feature = () => {
             <div className='mt-8 grid grid-cols-1 xl:grid-cols-2 items-center gap-12 w-[80%] mx-auto'>
                 {/* image  */}
                 <Tilt>
-                    <Image src="/images/f.png" alt='FeatureImage' width={1000} height={1000} />
+                    <div data-aos="zoom-in" data-aos-anchor-placement="top-center">
+                        <Image src="/images/f.png" alt='FeatureImage' width={1000} height={1000} />
+                    </div>
                 </Tilt>
                 {/* text content  */}
                     <div>
