@@ -17,7 +17,7 @@ const About = () => {
           <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-6xl mt-8 font-bold md:leading-[3rem] lg:leading-[3.5rem] xl:leading-[3.9rem] text-gray-800'>
           Tired of feeling left behind in the tech world?
           </h1>
-          <p className='mt-4 text-gray-600'>Kebbi Tech Hub makes learning a breeze! Our online & onsite courses are designed to be fun and engaging, fitting seamlessly into your busy schedule. Unlock your tech potential today – let's get started!</p>
+          <p className='mt-4 text-gray-600'>{"Kebbi Tech Hub makes learning a breeze! Our online & onsite courses are designed to be fun and engaging, fitting seamlessly into your busy schedule. Unlock your tech potential today. Let's get started!"}</p>
           <button className='flex items-center space-x-2 px-8 py-3 mt-8 hover:bg-gray-700 transition-all duration-200 rounded-3xl bg-black text-white'>
             <span>Learn More</span>
             <FaArrowRight />
@@ -47,7 +47,8 @@ const About = () => {
                 Affordable for everyone
                 </h1>
                 <p className='w-[90%] lg:w-[70%] text-base text-black text-opacity-60'>
-                We believe tech education should be accessible to all. Ensuring that financial constraints don't limit your learning journey.                </p>
+                    {"We believe tech education should be accessible to all. Ensuring that financial constraints don't limit your learning journey."}
+                </p>
               </div>
             </div>
           </div>

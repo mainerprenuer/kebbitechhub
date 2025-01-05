@@ -1,7 +1,6 @@
 import Slider from '@/components/Helper/Slider'
 import React from 'react'
 import { BsQuote } from 'react-icons/bs'
-import { FaBriefcase } from 'react-icons/fa6'
 
 const Review = () => {
     return (
@@ -26,7 +25,7 @@ const Review = () => {
                     {/* info */}
                     <div className='flex items-center space-x-8 mt-8'>
                         <p className='text-white font-bold text-5xl'>90%</p>
-                        <p className='text-white'>Student's Complete <br /> Course Successfully </p>
+                        <p className='text-white'>{"Student's Complete <br /> Course Successfully "}</p>
                     </div>
                 </div>
                {/* slider */}
