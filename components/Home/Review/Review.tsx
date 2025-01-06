@@ -25,7 +25,7 @@ const Review = () => {
                     {/* info */}
                     <div className='flex items-center space-x-8 mt-8'>
                         <p className='text-white font-bold text-5xl'>90%</p>
-                        <p className='text-white'>{"Student's Complete <br /> Course Successfully "}</p>
+                        <p className='text-white'>{"Student's Complete Course Successfully "}</p>
                     </div>
                 </div>
                {/* slider */}
