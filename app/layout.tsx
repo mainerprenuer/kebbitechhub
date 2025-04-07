@@ -11,7 +11,7 @@ const font = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-  title: "Kebbi Innovation and Technology Hub",
+  title: "Kebbi Innovation and Tech Hub",
   description: "Learning Management System",
 };
 

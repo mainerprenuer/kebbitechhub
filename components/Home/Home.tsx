@@ -7,6 +7,7 @@ import Courses from './Courses/Courses'
 import Feature from './Feature/Feature'
 import Review from './Review/Review'
 import Article from './Article/Article'
+import Workspaces from './Workspaces/Workspaces'
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'
@@ -31,6 +32,7 @@ const Home = () => {
     <div>
       <Hero />
       <About />
+      <Workspaces />
       <Courses />
       <Feature />
       <Review />

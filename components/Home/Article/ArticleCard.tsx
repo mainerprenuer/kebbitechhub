@@ -47,7 +47,7 @@ const ArticleCard = ({ article }: Props) => {
         {/* Heading */}
         <h1 className="mt-4 mb-4 text-xl font-semibold">{article.title}</h1>
         <p className="text-base text-gray-700">
-            This is a text contentThis is a text content
+            This is a text content This is a text content
             This is a text content
         </p>
         <button className="mt-4 mb-3 hover:text-green-600 text-lg text-black font-bold underline">Learn More</button>

@@ -13,7 +13,7 @@ const Review = () => {
                         <div className='w-12 h-12 bg-rose-600 rounded-full flex items-center justify-center flex-col'>
                             <BsQuote className='h-6 w-6 text-white' />
                         </div>
-                        <h1 className='text-xl text-white font-semibold'>Student feedback</h1>
+                        <h1 className='text-xl text-white font-semibold'>Professional feedback</h1>
                     </div>
                     {/* title */}
                     <h1 className='text-2xl md:text-3xl lg:text-5xl mt-8 font-bold md:leading-[3rem] lg:leading-[3.3rem]
